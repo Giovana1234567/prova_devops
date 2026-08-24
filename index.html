@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG</title>
+    <title>Nossa ONG</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>🌱 Nossa ONG</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#missao">Missão</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#voluntariado">Voluntariado</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Juntos podemos transformar nossa comunidade</h2>
+            <p>
+                Somos uma ONG local dedicada a promover ações
+                sociais e ajudar nossa comunidade.
+            </p>
+
+            <button>Quero ser voluntário</button>
+        </section>
+
+
+        <section id="missao">
+            <h2>Nossa Missão</h2>
+
+            <p>
+                Promover ações sociais, solidariedade e inclusão
+                em nossa comunidade.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🤝 Solidariedade</h3>
+                    <p>Ajudar quem precisa.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🌱 Comunidade</h3>
+                    <p>Construir uma comunidade melhor.</p>
+                </div>
+
+                <div class="card">
+                    <h3>❤️ Inclusão</h3>
+                    <p>Promover oportunidades para todos.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="projetos">
+            <h2>Nossos Projetos</h2>
+
+            <div class="projetos">
+
+                <article>
+                    <img src="img/projeto1.jpg" alt="Campanha de doação">
+                    <h3>Campanha de Doação</h3>
+                    <p>
+                        Arrecadação de alimentos para famílias
+                        da comunidade.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="img/projeto2.jpg" alt="Ação comunitária">
+                    <h3>Ação Comunitária</h3>
+                    <p>
+                        Eventos e atividades para ajudar
+                        nossa comunidade.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="voluntariado">
+            <h2>Seja Voluntário</h2>
+
+            <form id="formulario">
+
+                <label>Nome:</label>
+                <input type="text" id="nome">
+
+                <label>E-mail:</label>
+                <input type="email" id="email">
+
+                <label>Área de interesse:</label>
+                <input type="text" id="interesse">
+
+                <button type="submit">
+                    Quero participar
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Nossa ONG - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
